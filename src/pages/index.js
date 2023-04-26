@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import {projects} from '../../profile'
-import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -43,16 +42,16 @@ export default function Home() {
         Disfruto mucho de los desafíos que se me presentan en el día a día, ya que me permiten seguir creciendo 
         tanto personal como profesionalmente. 🚀</p>
         <div className='flex justify-center'>
-          <Link href='https://github.com/SantiPagge'><Image src='/github.png' alt='linkedin' width={30} height={30} className='hover:scale-125 transform transition-transform duration-500'/></Link>
-          <Link href='https://www.linkedin.com/in/santiagopagge/'><Image src='/linkedin.png' alt='linkedin' width={30} height={30} className='mx-4 hover:scale-125 transform transition-transform duration-500'/></Link>
-          <Link href='https://wa.me/542364347911'><Image src='/whatsapp.png' alt='linkedin' width={30} height={30} className='hover:scale-125 transform transition-transform duration-500'/></Link>
+          <a href='https://github.com/SantiPagge' target="_blank" rel="noopener noreferrer"><Image src='/github.png' alt='linkedin' width={30} height={30} className='hover:scale-125 transform transition-transform duration-500'/></a>
+          <a href='https://www.linkedin.com/in/santiagopagge/' target="_blank" rel="noopener noreferrer"><Image src='/linkedin.png' alt='linkedin' width={30} height={30} className='mx-4 hover:scale-125 transform transition-transform duration-500'/></a>
+          <a href='https://wa.me/542364347911' target="_blank" rel="noopener noreferrer"><Image src='/whatsapp.png' alt='linkedin' width={30} height={30} className='hover:scale-125 transform transition-transform duration-500'/></a>
         </div>
       </div>
       <div className='bg-blue-900'>
       <h1 className='flex justify-center font-bold text-3xl pt-4'>Proyectos:</h1>
       <div className='flex p-10'>
       {projects.map(({ title, description, image, url }, index) => (
-        <a href={url} target="_blank" rel="noopener noreferrer" className='inline-block align-middle hover:scale-105 transform transition-transform duration-500'>
+        <a href={url} key={index} target="_blank" rel="noopener noreferrer" className='inline-block align-middle hover:scale-105 transform transition-transform duration-500'>
         <div className='m-4 w-auto border-4 border-black rounded-2xl overflow-hidden shadow-lg' key={index}>
             <div className=''>
                 <div>
@@ -68,6 +67,17 @@ export default function Home() {
       ))}
       </div>
     </div>
+      <div className='flex p-4 justify-center'>
+        <h1 className='font-bold text-3xl mt-4'>Contact Me:</h1>
+      </div>
+        <div className=''>
+          <form className=''>
+            <p>Nombre:</p><input className='' type='text'/>
+            <p>Email:</p><input className='' type='email'/>
+            <p>Mensaje:</p><input className='' type='textarea'/>
+            <button type='submit'>Enviar</button>
+          </form>
+        </div>
     </div>
   )
 }
