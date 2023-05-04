@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import {ContactForm} from '@/components/Contactform'
+import {ContactForm} from '@/components/ContactForm'
 import { Proyectos } from '@/components/Proyectos'
 import { SobreMi } from '@/components/SobreMi'
 import { Tecnologias } from '@/components/Tecnologias'
