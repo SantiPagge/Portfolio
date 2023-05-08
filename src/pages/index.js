@@ -25,7 +25,7 @@ export default function Home() {
       </div>
     </div>
       <div className='flex p-4 justify-center'>
-        <h1 className='font-bold text-3xl mt-4'>Contact Me:</h1>
+        <h1 className='font-bold text-3xl mt-4'>Contactame:</h1>
       </div>
         <div className='flex justify-center'>
           <ContactForm/>
