@@ -3,7 +3,7 @@ import Image from 'next/image'
 export const Tecnologias = () => {
     return (
         <div>
-            <div className='flex justify-center mb-2 mt-4 ml-32'>
+            <div className='flex justify-center mb-4 mt-4 ml-32'>
                 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer" className='inline-block align-middle mx-2 hover:scale-125 transform transition-transform duration-500'><Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width={80} height={80}/></a>
                 <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer" className='inline-block align-middle mx-2 hover:scale-125 transform transition-transform duration-500'><Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width={80} height={80}/></a>
                 <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer" className='inline-block align-middle mx-2 hover:scale-125 transform transition-transform duration-500'><Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width={80} height={80}/></a>
