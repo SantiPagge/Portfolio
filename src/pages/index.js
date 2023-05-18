@@ -28,7 +28,7 @@ export default function Home() {
       </div>
       <SobreMi/>
       <div className='bg-blue-900'>
-      <h1 className='flex justify-center font-bold text-3xl pt-4'>{idioma === 'español' ? 'Proyectos:' : 'Proyects:'}</h1>
+      <h1 className='flex justify-center font-bold text-3xl pt-4'>{idioma === 'español' ? 'Proyectos:' : 'Projects:'}</h1>
       <div>
         <Proyectos/>
       </div>
