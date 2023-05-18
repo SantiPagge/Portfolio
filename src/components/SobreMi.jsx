@@ -30,7 +30,7 @@ export const SobreMi = () => {
             <a href='https://wa.me/542364347911' target="_blank" rel="noopener noreferrer"><Image src='/whatsapp.png' alt='linkedin' width={30} height={30} className='hover:scale-125 transform transition-transform duration-500'/></a>
             </div>
             <div className='flex justify-center pt-4'>
-                <a href='https://drive.google.com/file/d/1_Cqqk_nr73rZ3jUIXuddP48KAhOEaAC_/view?usp=sharing' target="_blank" rel="noopener noreferrer"><button className='bg-blue-800 w-auto rounded-md p-2 font-bold hover:scale-125 transform transition-transform duration-500'>{idioma === 'español' ? 'Ver mi CV' : 'See my CV'}</button></a>
+                <a href='https://drive.google.com/file/d/1_Cqqk_nr73rZ3jUIXuddP48KAhOEaAC_/view?usp=sharing' target="_blank" rel="noopener noreferrer"><button className='bg-blue-800 w-auto rounded-md p-2 font-bold hover:scale-125 transform transition-transform duration-500'>{idioma === 'español' ? 'Ver CV' : 'View CV'}</button></a>
             </div>
             </div>
         </div>
