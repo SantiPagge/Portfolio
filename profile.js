@@ -1,13 +1,15 @@
 export const projects = [
     {
         title: 'Fusionajob',
-        description: 'Fusionajob es un sitio web para búsqueda de empleo y contratación en el campo IT.',
+        descripcion: 'Fusionajob es un sitio web para búsqueda de empleo y contratación en el campo IT.',
+        description: 'Fusionajob is a website for job search and hiring in the IT field.',
         image: '/fusionajob.jpg',
         url: 'https://fusionajob.vercel.app/'
     },
     {
         title: 'Henry Foods',
-        description: 'Página web de recetas.',
+        descripcion: 'Página web de recetas.',
+        description: 'Recipe website.',
         image: '/henryfoods.jpg',
         url: 'https://santipagge-pifoodshenry.vercel.app/'
     },

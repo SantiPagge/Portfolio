@@ -3,10 +3,19 @@ import { ContactForm } from '@/components/ContactForm'
 import { Proyectos } from '@/components/Proyectos'
 import { SobreMi } from '@/components/SobreMi'
 import { Tecnologias } from '@/components/Tecnologias'
+import { BotonIdioma } from '@/components/BotonIdioma'
+import { useContext } from 'react';
+import { LanguageContext } from '../../LanguageContext';
 
 export default function Home() {
+
+  const { idioma, toggleIdioma } = useContext(LanguageContext);
+
   return (
-    <div className='pt-20'>
+    <div className='pt-2'>
+      <div className='flex justify-end'>
+        <BotonIdioma/>
+      </div>
       <div className="grid grid-cols-2 bg-blue-900 h-96">
         <div className='flex flex-col justify-top'> 
           <h1 className='flex font-bold lg:text-6xl md:4xl sm:2xl text-white justify-center w-auto mt-10 ml-32'>Santiago Pagge</h1>
@@ -19,13 +28,13 @@ export default function Home() {
       </div>
       <SobreMi/>
       <div className='bg-blue-900'>
-      <h1 className='flex justify-center font-bold text-3xl pt-4'>Proyectos:</h1>
+      <h1 className='flex justify-center font-bold text-3xl pt-4'>{idioma === 'español' ? 'Proyectos:' : 'Projects:'}</h1>
       <div>
         <Proyectos/>
       </div>
     </div>
       <div className='flex p-4 justify-center'>
-        <h1 className='font-bold text-3xl mt-4'>Contactame:</h1>
+        <h1 className='font-bold text-3xl mt-4'>{idioma === 'español' ? 'Contactame:' : 'Contact Me:'}</h1>
       </div>
         <div>
           <ContactForm/>
