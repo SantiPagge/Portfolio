@@ -7,7 +7,7 @@ export const Proyectos = () => {
     const { idioma, toggleIdioma } = useContext(LanguageContext);
 
     return (
-        <div className='flex p-10'>
+        <div className='flex flex-col sm:flex-row p-10'>
         {projects.map(({ title, descripcion, description, image, url }, index) => (
             <a href={url} key={index} target="_blank" rel="noopener noreferrer" className='inline-block align-middle hover:scale-105 transform transition-transform duration-500'>
             <div className='m-4 w-auto border-4 border-black rounded-2xl overflow-hidden shadow-lg' key={index}>
