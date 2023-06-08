@@ -1,4 +1,4 @@
-import {projects} from '../../profile'
+import {projects} from '../../profile';
 import { useContext } from 'react';
 import { LanguageContext } from '../../LanguageContext';
 
@@ -28,5 +28,5 @@ export const Proyectos = () => {
             </a>
             ))}
         </div>
-    )
-} 
+    );
+};

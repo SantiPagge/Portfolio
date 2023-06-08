@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { LanguageContext } from '../../LanguageContext';
-import Image from 'next/image'
+import Image from 'next/image';
 
 export const SobreMi = () => {
 
@@ -38,5 +38,5 @@ export const SobreMi = () => {
             </div>
             </div>
         </div>
-    )
-} 
+    );
+};
