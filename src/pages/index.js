@@ -4,6 +4,7 @@ import { Proyectos } from '@/components/Proyectos';
 import { SobreMi } from '@/components/SobreMi';
 import { Tecnologias } from '@/components/Tecnologias';
 import { BotonIdioma } from '@/components/BotonIdioma';
+import TopButton from '@/components/TopButton';
 import { useContext } from 'react';
 import { LanguageContext } from '../../LanguageContext';
 
@@ -44,6 +45,7 @@ export default function Home() {
         <div>
           <ContactForm/>
         </div>
+          <TopButton/>
     </div>
   )
 };
