@@ -1,8 +1,8 @@
 export const projects = [
     {
         title: 'Fusionajob',
-        descripcion: 'Fusionajob es un sitio web para búsqueda de empleo y contratación en el campo IT.',
-        description: 'Fusionajob is a website for job search and hiring in the IT field.',
+        descripcion: 'Sitio web para búsqueda de empleo y contratación en el campo IT.',
+        description: 'Website for job search and hiring in the IT field.',
         image: '/fusionajob.jpg',
         url: 'https://fusionajob.vercel.app/'
     },
@@ -12,6 +12,13 @@ export const projects = [
         description: 'Recipe website.',
         image: '/henryfoods.jpg',
         url: 'https://santipagge-pifoodshenry.vercel.app/'
+    },
+    {
+        title: 'JuegoNaves',
+        descripcion: 'Pequeño juego interactivo de naves espaciales',
+        description: 'Small interactive spaceship game.',
+        image: '/JuegoNaves.jpg',
+        url: 'https://juego-naves.vercel.app/'
     },
     // {
     //     title: 'Rick and Morty',
