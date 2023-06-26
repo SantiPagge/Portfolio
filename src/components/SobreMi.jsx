@@ -21,7 +21,7 @@ export const SobreMi = () => {
                             Disfruto mucho de los desafíos que se me presentan en el día a día, ya que me permiten seguir creciendo tanto personal como profesionalmente. 🚀
                         </>
                         : <>
-                            Hello! Santiago here, and I live in Junín, Buenos Aires, Argentina. Passionate about technology 👨‍💻, coffee ☕, cars 🚗, traveling ✈, and music 🎵. <br/>
+                            Hello! Santiago here, live in Junín, Buenos Aires, Argentina. Passionate about technology 👨‍💻, coffee ☕, cars 🚗, traveling ✈, and music 🎵. <br/>
                             For years, I have worked in customer service. <br/>
                             I consider myself a calm and attentive person, always ready to face new challenges and learn new things. <br/>
                             Greatly enjoy the challenges that come my way on a daily basis, as they allow me to continue growing both personally and professionally. 🚀
