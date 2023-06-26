@@ -3,6 +3,10 @@ import emailjs from '@emailjs/browser';
 import { useContext } from 'react';
 import { LanguageContext } from '../../LanguageContext';
 import { validateName, validateEmail, validateMessage } from '../validations';
+import { BeatLoader } from 'react-spinners';
+
+const loaderColor = '#FFFFFF';
+const loaderSize = 8;
 
 export const ContactForm = () => {
 
@@ -11,6 +15,7 @@ export const ContactForm = () => {
   const form = useRef();
 
   const [showErrors, setShowErrors] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const [text, setText] = useState({
     name: '',
@@ -66,7 +71,9 @@ export const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     setShowErrors(true);
+
     if (validateName(text.name) && validateEmail(text.email) && validateMessage(text.message)) {
+      setIsLoading(true);
       emailjs.sendForm(
         'service_cqx705q',
         'template_tx6unzn',
@@ -85,6 +92,9 @@ export const ContactForm = () => {
         })
         .catch((error) => {
           console.log(error.text);
+        })
+        .finally(() => {
+          setIsLoading(false); // Desactivar el estado de carga
         });
     }
   };
@@ -103,7 +113,8 @@ export const ContactForm = () => {
         {showErrors && errors.name && <span className="text-red-500">{errors.name}</span>}
         <label className="text-white">Email:</label>
         <input className="p-1 mb-2 rounded-md" 
-        type='email' id='email' 
+        type='email' 
+        id='email' 
         name='user_email' 
         value={text.email} 
         onChange={handleEmail}
@@ -119,7 +130,17 @@ export const ContactForm = () => {
         />
         {showErrors && errors.message && <span className="text-red-500">{errors.message}</span>}
           <div className="flex justify-center w-auto">
-            <button className="text-white p-2 m-4 bg-blue-900 font-bold rounded-lg hover:scale-125 transform transition-transform duration-500" type='submit' value='Send'>{idioma === 'español' ? 'Enviar' : 'Send'}</button>
+            <button className="text-white p-2 m-4 bg-blue-900 font-bold rounded-lg hover:scale-125 transform transition-transform duration-500" 
+            type='submit' 
+            value='Send'
+            disabled={isLoading} // Desactivar el botón cuando está cargando
+            >
+              {isLoading ? (
+                  <BeatLoader color={loaderColor} size={loaderSize} />
+              ) : (
+                idioma === 'español' ? 'Enviar' : 'Send'
+              )}
+            </button>
           </div>
       </form>
     </div>
