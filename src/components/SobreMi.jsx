@@ -21,10 +21,10 @@ export const SobreMi = () => {
                             Disfruto mucho de los desafíos que se me presentan en el día a día, ya que me permiten seguir creciendo tanto personal como profesionalmente. 🚀
                         </>
                         : <>
-                            Hello! I'm Santiago, and I live in Junín, Buenos Aires, Argentina. I'm passionate about technology 👨‍💻, coffee ☕, cars 🚗, traveling ✈, and music 🎵. <br/>
+                            Hello! Santiago here, and I live in Junín, Buenos Aires, Argentina. Passionate about technology 👨‍💻, coffee ☕, cars 🚗, traveling ✈, and music 🎵. <br/>
                             For years, I have worked in customer service. <br/>
                             I consider myself a calm and attentive person, always ready to face new challenges and learn new things. <br/>
-                            I greatly enjoy the challenges that come my way on a daily basis, as they allow me to continue growing both personally and professionally. 🚀
+                            Greatly enjoy the challenges that come my way on a daily basis, as they allow me to continue growing both personally and professionally. 🚀
                         </>
                     }
                 </p>
@@ -33,13 +33,13 @@ export const SobreMi = () => {
             <a href='https://www.linkedin.com/in/santiagopagge/' target="_blank" rel="noopener noreferrer"><Image src='/linkedin.png' alt='linkedin' width={30} height={30} className='mx-4 hover:scale-125 transform transition-transform duration-500'/></a>
             <a href='https://wa.me/542364347911' target="_blank" rel="noopener noreferrer"><Image src='/whatsapp.png' alt='linkedin' width={30} height={30} className='hover:scale-125 transform transition-transform duration-500'/></a>
             </div>
-            <div className='flex justify-center pt-4'>
-                {idioma === 'español' ? (
-                    <a href='https://drive.google.com/file/d/1QfnxPJgT4DuEmUclObjz4NJmI2bCcLnz/view?usp=sharing' target="_blank" rel="noopener noreferrer"><button className='bg-blue-800 w-auto rounded-md p-2 font-bold hover:scale-125 transform transition-transform duration-500'>Ver CV</button></a>
-                ) : (
-                    <a href='https://drive.google.com/file/d/1HJpdacI1HpGNuHQkOBFcYkCzRnzNqCHN/view?usp=sharing' target="_blank" rel="noopener noreferrer"><button className='bg-blue-800 w-auto rounded-md p-2 font-bold hover:scale-125 transform transition-transform duration-500'>View CV</button></a>
-                )}
-            </div>
+                <div className='flex justify-center pt-4'>
+                    {idioma === 'español' ? (
+                        <a href='https://drive.google.com/file/d/1QfnxPJgT4DuEmUclObjz4NJmI2bCcLnz/view?usp=sharing' target="_blank" rel="noopener noreferrer"><button className='bg-blue-800 w-auto rounded-md p-2 font-bold hover:scale-125 transform transition-transform duration-500'>Ver CV</button></a>
+                    ) : (
+                        <a href='https://drive.google.com/file/d/1HJpdacI1HpGNuHQkOBFcYkCzRnzNqCHN/view?usp=sharing' target="_blank" rel="noopener noreferrer"><button className='bg-blue-800 w-auto rounded-md p-2 font-bold hover:scale-125 transform transition-transform duration-500'>View CV</button></a>
+                    )}
+                </div>
             </div>
         </div>
     );
