@@ -35,9 +35,9 @@ export const SobreMi = () => {
             </div>
                 <div className='flex justify-center pt-4'>
                     {idioma === 'español' ? (
-                        <a href='https://drive.google.com/file/d/1TjKDknZHJ7KCdBWd0YsGoWMWrsp0oehr/view' target="_blank" rel="noopener noreferrer"><button className='bg-blue-800 w-auto rounded-md p-2 font-bold hover:scale-125 transform transition-transform duration-500'>Ver CV</button></a>
+                        <a href='https://drive.google.com/file/d/1LfxCZoKYlvcOG0sYvVheJUM2Qq88jnZx/view' target="_blank" rel="noopener noreferrer"><button className='bg-blue-800 w-auto rounded-md p-2 font-bold hover:scale-125 transform transition-transform duration-500'>Ver CV</button></a>
                     ) : (
-                        <a href='https://drive.google.com/file/d/1HJpdacI1HpGNuHQkOBFcYkCzRnzNqCHN/view?usp=sharing' target="_blank" rel="noopener noreferrer"><button className='bg-blue-800 w-auto rounded-md p-2 font-bold hover:scale-125 transform transition-transform duration-500'>View CV</button></a>
+                        <a href='https://drive.google.com/file/d/1HJpdacI1HpGNuHQkOBFcYkCzRnzNqCHN/view' target="_blank" rel="noopener noreferrer"><button className='bg-blue-800 w-auto rounded-md p-2 font-bold hover:scale-125 transform transition-transform duration-500'>View CV</button></a>
                     )}
                 </div>
             </div>
