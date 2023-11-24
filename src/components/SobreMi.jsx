@@ -15,7 +15,7 @@ export const SobreMi = () => {
                 <p className='text-2xl pb-4'>
                     {idioma === 'español'
                         ? <>
-                            Hola!, soy Santiago y vivo en Montevideo, Uruguay. Apasionado por la tecnología, el café, los autos, los viajes ✈ y la música. <br/>
+                            Hola!, soy Santiago y vivo en Montevideo, Uruguay. Apasionado por la tecnología, el café, los autos, los viajes y la música. <br/>
                             Durante años trabajé en atención al público. <br/>
                             Me considero una persona tranquila y atenta, siempre dispuesto a enfrentar nuevos desafíos y aprender cosas nuevas. <br/>
                             Disfruto mucho de los desafíos que se me presentan en el día a día, ya que me permiten seguir creciendo tanto personal como profesionalmente.
