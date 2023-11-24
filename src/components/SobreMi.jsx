@@ -15,13 +15,13 @@ export const SobreMi = () => {
                 <p className='text-2xl pb-4'>
                     {idioma === 'español'
                         ? <>
-                            Hola!, soy Santiago y vivo en Junín, Buenos Aires, Argentina. Apasionado por la tecnología 👨‍💻, el café ☕, los autos 🚗, los viajes ✈ y la música 🎵. <br/>
+                            Hola!, soy Santiago y vivo en Montevideo, Uruguay. Apasionado por la tecnología 👨‍💻, el café ☕, los autos 🚗, los viajes ✈ y la música 🎵. <br/>
                             Durante años trabajé en atención al público. <br/>
                             Me considero una persona tranquila y atenta, siempre dispuesto a enfrentar nuevos desafíos y aprender cosas nuevas. <br/>
                             Disfruto mucho de los desafíos que se me presentan en el día a día, ya que me permiten seguir creciendo tanto personal como profesionalmente. 🚀
                         </>
                         : <>
-                            Hello! Santiago here, living in Junín, Buenos Aires, Argentina. Passionate about technology 👨‍💻, coffee ☕, cars 🚗, traveling ✈, and music 🎵. <br/>
+                            Hello! Santiago here, living in Montevideo, Uruguay. Passionate about technology 👨‍💻, coffee ☕, cars 🚗, traveling ✈, and music 🎵. <br/>
                             For years, I have worked in customer service. <br/>
                             I consider myself a calm and attentive person, always ready to face new challenges and learn new things. <br/>
                             Greatly enjoy the challenges that come my way on a daily basis, as they allow me to continue growing both personally and professionally. 🚀
