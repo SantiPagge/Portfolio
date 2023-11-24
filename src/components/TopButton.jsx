@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const TopButton = () => {
+export const TopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -51,5 +51,3 @@ const TopButton = () => {
     </>
   );
 };
-
-export default TopButton;
