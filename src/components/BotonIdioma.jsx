@@ -25,9 +25,9 @@ export const BotonIdioma = () => {
         <div className='mr-2'>
             <button onClick={handleClickEspañol}>
                 {idiomaActual === 'español' ? (
-                        <Image src="/BanderaEspana1.png" alt="Spanish" width={50} height={50}/>
+                        <Image src="/BanderaEspana1.png" alt="Spanish" width={40} height={40}/>
                     ) : (
-                        <Image src="/BanderaEspana0.png" alt="Spanish" width={50} height={50}/>
+                        <Image src="/BanderaEspana0.png" alt="Spanish" width={40} height={40}/>
                     )
                 }
             </button>
@@ -35,9 +35,9 @@ export const BotonIdioma = () => {
         <div className='mr-2'>
             <button onClick={handleClickInglés}>
                 {idiomaActual === 'inglés' ? (
-                        <Image src="/BanderaIng1.png" alt="English" width={50} height={50}/>
+                        <Image src="/BanderaIng1.png" alt="English" width={40} height={40}/>
                     ) : (
-                        <Image src="/BanderaIng0.png" alt="English" width={50} height={50}/>
+                        <Image src="/BanderaIng0.png" alt="English" width={40} height={40}/>
                     )
                 }
             </button>

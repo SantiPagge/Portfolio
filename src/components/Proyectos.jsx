@@ -6,7 +6,7 @@ export const Proyectos = () => {
   const { idioma, toggleIdioma } = useContext(LanguageContext);
 
   return (
-    <div className='flex flex-wrap justify-center p-10'>
+    <div className='flex flex-wrap justify-center py-2'>
       {projects.map(({ title, descripcion, description, image, url }, index) => (
         <a
           href={url}
@@ -15,7 +15,7 @@ export const Proyectos = () => {
           rel="noopener noreferrer"
           className='inline-block align-middle hover:scale-105 transform transition-transform duration-500 mb-5'
         >
-          <div className='m-4 w-80 h-full border-4 border-black bg-blue-700 rounded-2xl overflow-hidden shadow-lg' key={index}>
+          <div className='m-4 w-80 h-full border-4 border-black bg-blue-600 rounded-2xl overflow-hidden shadow-lg' key={index}>
             <div>
               <div>
                 <img src={image} alt={title} className='rounded-t-2xl border-b-4 border-black'/>

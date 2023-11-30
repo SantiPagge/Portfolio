@@ -9,9 +9,9 @@ export const SobreMi = () => {
     return (
         <div>
             <div className='flex justify-center pt-4'>
-                <h1 className='font-bold text-3xl mt-4'>{idioma === 'español' ? 'Sobre mí:' : 'About me:'}</h1>
+                <h1 className='font-bold text-3xl mt-2'>{idioma === 'español' ? 'Sobre mí:' : 'About me:'}</h1>
             </div>
-            <div className='flex flex-col p-6 justify-center'>
+            <div className='flex flex-col p-6 mb-2 justify-center'>
                 <p className='text-2xl pb-4'>
                     {idioma === 'español'
                         ? <>
@@ -28,7 +28,7 @@ export const SobreMi = () => {
                         </>
                     }
                 </p>
-            <div className='flex justify-center'>
+            <div className='flex justify-center my-2'>
             <a href='https://github.com/SantiPagge' target="_blank" rel="noopener noreferrer"><Image src='/github.png' alt='linkedin' width={30} height={30} className='hover:scale-125 transform transition-transform duration-500'/></a>
             <a href='https://www.linkedin.com/in/santiagopagge/' target="_blank" rel="noopener noreferrer"><Image src='/linkedin.png' alt='linkedin' width={30} height={30} className='mx-4 hover:scale-125 transform transition-transform duration-500'/></a>
             <a href='https://wa.me/542364347911' target="_blank" rel="noopener noreferrer"><Image src='/whatsapp.png' alt='linkedin' width={30} height={30} className='hover:scale-125 transform transition-transform duration-500'/></a>

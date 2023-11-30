@@ -31,7 +31,7 @@ export default function Home() {
         </div>
         <div className="grid sm:grid-cols-2 bg-blue-900 h-96">
           <div className='flex flex-col text-center justify-top'> 
-            <h1 className='font-bold lg:text-6xl text-4xl text-white w-auto sm:mt-10 sm:ml-32'>Santiago Pagge</h1>
+            <h1 className='font-bold lg:text-6xl text-4xl text-white w-auto sm:mt-10 sm:ml-32 mt-2'>Santiago Pagge</h1>
             <p className='font-bold lg:text-2xl text-white w-auto sm:mt-4 sm:ml-32'>Full Stack Web Developer</p>
           <div className='hidden sm:inline'>
             <Tecnologias/>
