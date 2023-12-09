@@ -31,13 +31,13 @@ export const SobreMi = () => {
             <div className='flex justify-center my-2'>
             <a href='https://github.com/SantiPagge' target="_blank" rel="noopener noreferrer"><Image src='/github.png' alt='linkedin' width={30} height={30} className='hover:scale-125 transform transition-transform duration-500'/></a>
             <a href='https://www.linkedin.com/in/santiagopagge/' target="_blank" rel="noopener noreferrer"><Image src='/linkedin.png' alt='linkedin' width={30} height={30} className='mx-4 hover:scale-125 transform transition-transform duration-500'/></a>
-            <a href='https://wa.me/542364347911' target="_blank" rel="noopener noreferrer"><Image src='/whatsapp.png' alt='linkedin' width={30} height={30} className='hover:scale-125 transform transition-transform duration-500'/></a>
+            <a href='https://wa.me/59892164967' target="_blank" rel="noopener noreferrer"><Image src='/whatsapp.png' alt='linkedin' width={30} height={30} className='hover:scale-125 transform transition-transform duration-500'/></a>
             </div>
                 <div className='flex justify-center pt-4'>
                     {idioma === 'español' ? (
-                        <a href='https://drive.google.com/file/d/1LfxCZoKYlvcOG0sYvVheJUM2Qq88jnZx/view' target="_blank" rel="noopener noreferrer"><button className='bg-blue-800 w-auto rounded-md p-2 font-bold hover:scale-125 transform transition-transform duration-500'>Ver CV</button></a>
+                        <a href='https://drive.google.com/file/d/161SH23K4gV8RGKlk0xOiaCfyggU5erQQ/view' target="_blank" rel="noopener noreferrer"><button className='bg-blue-800 w-auto rounded-md p-2 font-bold hover:scale-125 transform transition-transform duration-500'>Ver CV</button></a>
                     ) : (
-                        <a href='https://drive.google.com/file/d/1Lyu6Ufa4BNm8d2VwaY-PfVneoqyxNHQ_/view' target="_blank" rel="noopener noreferrer"><button className='bg-blue-800 w-auto rounded-md p-2 font-bold hover:scale-125 transform transition-transform duration-500'>View CV</button></a>
+                        <a href='https://drive.google.com/file/d/1ID_vfm7bQWrBvIR-uKV_weIm8joZRyGa/view' target="_blank" rel="noopener noreferrer"><button className='bg-blue-800 w-auto rounded-md p-2 font-bold hover:scale-125 transform transition-transform duration-500'>View CV</button></a>
                     )}
                 </div>
             </div>
